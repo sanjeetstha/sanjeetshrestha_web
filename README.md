@@ -1,6 +1,6 @@
 <div align="center">
 
-# vCard - Personal portfolio
+# sanjeetshrestha - Personal portfolio
 
 sanjeetshrestha.com.np is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
 
