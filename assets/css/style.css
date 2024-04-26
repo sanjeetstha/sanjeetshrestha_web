@@ -507,6 +507,28 @@ main {
 /**
  * #service 
  */
+ /* =================Blur effect codes==================== */
+ .container {
+  display: flex;
+}
+
+.panel {
+  flex: 1;
+  padding: 20px;
+  margin: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  transition: all 0.6s ease;
+}
+
+.panel:hover {
+  transform: scale(1.1);
+}
+
+.container:hover .panel:not(:hover) {
+  filter: blur(5px);
+}
+/* ========================================== */
 
 .service { margin-bottom: 35px; }
 
@@ -823,6 +845,7 @@ main {
   color: var(--light-gray);
   font-weight: var(--fw-300);
   line-height: 1.6;
+  text-align: justify;
 }
 
 
